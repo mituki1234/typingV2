@@ -1,0 +1,49 @@
+html ,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP','Hiragino Kaku Gothic ProN';
+}
+html{
+    background-color: #e7e7e7;
+}
+.container{
+    display: flex;
+    flex-flow: column;
+    margin: 30vh auto;
+    height: 240px;
+    width: 480px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px #a7a7a7;
+}
+.result{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 10px;
+}
+#wpm, #Accuracy, #misstakes{
+    display: inline-block;
+    margin-left: 50px;
+}
+#type-display{
+    display: inline-block;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 0px;
+}
+.header{
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#type-input{
+    font-size: 15px;
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 30px;
+    width: 75%;
+    resize: none;
+}
